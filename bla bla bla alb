@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>موقع الفيديوهات</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      direction: rtl;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .video-item {
+      background: white;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    video {
+      width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>مكتبتي المرئية</h1>
+
+  <div class="video-grid">
+    <div class="video-item">
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        المتصفح لا يدعم عرض الفيديو.
+      </video>
+      <p>عنوان الفيديو الأول</p>
+    </div>
+
+    <div class="video-item">
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+        المتصفح لا يدعم عرض الفيديو.
+      </video>
+      <p>عنوان الفيديو الثاني</p>
+    </div>
+
+    <div class="video-item">
+      <video controls>
+        <source src="video3.mp4" type="video/mp4">
+        المتصفح لا يدعم عرض الفيديو.
+      </video>
+      <p>عنوان الفيديو الثالث</p>
+    </div>
+  </div>
+
+</body>
+</
+html>
